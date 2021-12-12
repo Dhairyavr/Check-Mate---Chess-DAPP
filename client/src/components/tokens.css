@@ -1,0 +1,14 @@
+.selected::before {
+  color: #fff;
+  font-family: "Font Awesome 5 Free";
+  font-size: 17px;
+  font-weight: 900;
+  position: absolute;
+  right: 6px;
+  top: 6px;
+}
+.selected {
+  border: 2px solid #42c0fb;
+  transform: scale(1.05);
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
